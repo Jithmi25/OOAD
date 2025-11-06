@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-// ======================== Room Class ========================
+// Room Class
 class Room {
     private int roomNumber;
     private String roomType;
@@ -31,7 +31,7 @@ class Room {
     }
 }
 
-// ======================== Guest Class ========================
+//Guest Class
 class Guest {
     private int guestID;
     private String name;
@@ -52,7 +52,7 @@ class Guest {
     }
 }
 
-// ======================== Reservation Class ========================
+// Reservation Class
 class Reservation {
     private int reservationID;
     private Guest guest;
@@ -97,7 +97,7 @@ class Reservation {
     }
 }
 
-// ======================== Receptionist Class ========================
+//  Receptionist Class
 class Receptionist {
     private int receptionistID;
     private String name;
@@ -137,7 +137,7 @@ class Receptionist {
     }
 }
 
-// ======================== Main System ========================
+//  Main System
 public class HotelManagementSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
